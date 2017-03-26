@@ -1,15 +1,31 @@
 \documentclass{article}
 
 \usepackage{fontspec}
-
 \setmonofont[Contextuals={Alternate}]{FiraCode}
+
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily}
 
 \begin{document}
 
+\section{tt}
+
 {\tt ->}
+
+\section{verb}
+
+\verb|->|
+
+\section{verbatim}
 
 \begin{verbatim}
 ->
 \end{verbatim}
+
+\section{lstlisting}
+
+\begin{lstlisting}
+->
+\end{lstlisting}
 
 \end{document}
